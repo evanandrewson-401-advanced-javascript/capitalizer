@@ -5,6 +5,4 @@ const readFile = (path) => {
     .then(result => result);
 };
 
-readFile('./read-write/test-file.txt');
-
 module.exports = readFile;
