@@ -5,4 +5,4 @@ io.on('connection', socket => {
   socket.on('file-write', () => {});
   socket.on('file-saved', () => {});
   socket.on('file-error', () => {});
-})
+});
