@@ -11,8 +11,7 @@
     "test:watch": "npm run jest -- --watchAll",
     "test:verbose": "npm run test -- --verbose",
     "start": "node server.js",
-    "start:watch": "nodemon server.js",
-    "make:admin": "node scripts/make-admin.js"
+    "start:watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
