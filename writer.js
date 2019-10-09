@@ -5,5 +5,8 @@ const writeFile = require('./write-file');
 socket.on('file-write', (path, data) => {
   writeFile(path, data).then(() => {
     socket.emit('file-saved');
-  });
+  })
+    .catch(err => {
+      socket.emit('file-error', err);
+    });
 });

@@ -10,5 +10,7 @@ io.on('connection', socket => {
   socket.on('file-saved', () => {
     console.log('file saved')
   });
-  socket.on('file-error', () => {});
+  socket.on('file-error', err => {
+    console.log(err);
+  });
 });
