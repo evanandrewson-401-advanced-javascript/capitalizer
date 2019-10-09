@@ -6,7 +6,7 @@
 
 ### Links and Resources
 * [submission PR](https://github.com/evanandrewson-401-advanced-javascript/capitalizer/pull/1)
-* [travis]()
+* [travis](https://travis-ci.com/evanandrewson-401-advanced-javascript/capitalizer)
 
 #### Running the app
 
